@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 01-60</title>
+  <script src="chapter 01-20.js"></script>
+  <script src="chapter 20-40.js"></script>
+  <script src="chapter 40-60.js"></script>
+  <style>
+  .image img{
+        width: 250px;
+        height: 250px;
+        margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <!-- chapter 20 - 40 -->
+  <button id="rollButton">Roll the Dice</button>
+  <p id="result"></p>
+  <!-- age calculator -->
+  <b> Enter Date of Birth: <input type=date id = DOB> </b>  
+  <span id = "message" style="color:red"> </span> <br><br>    
+    
+  <!-- Choose a date and enter in input field -->  
+  <button type="submit" onclick = "ageCalculator()"> Calculate age </button> <br><br>  
+  <h3 style="color:32A80F" id="result" align="center"></h3>   
+  <!-- Chapter 46 - 48 -->
+  <button onclick="clickFun()">Click me</button>
+  <p id="para"></p>
+  <!-- hide element -->
+  <button onclick="hideFun()">Click me</button>
+  <p id="demo">Hello World</p>
+  <!-- color change -->
+  <a href="https://google.com" onmouseover="colorChange()" onmouseout="colorFun()">google</a><br><br>
+  <!-- scroll up -->
+  <div>
+    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur nobis ea placeat, reprehenderit blanditiis ducimus architecto autem quis maiores cumque aliquam hic magni qui asperiores sequi facere. Autem, doloribus alias.
+    Dolorem error suscipit aperiam pariatur inventore quia? Illo earum libero voluptatem iusto aliquam deserunt hic ipsam et velit! Deserunt sit, natus labore a odit molestiae minus temporibus voluptates eum quaerat.
+    Odio labore est dolores magni commodi! Voluptas neque a nostrum at dolores accusantium eius odit sequi ea maiores iure, in et commodi ducimus vel laboriosam quod veniam. Architecto, animi itaque!
+    Commodi, dolorum eum! Ab minus corrupti, explicabo blanditiis esse laudantium iure quam, libero et eaque quaerat vero labore repellat. Voluptate, odio aut cum in soluta dolorem ipsam repudiandae praesentium officiis!
+    Officiis consectetur vitae doloribus culpa saepe facere doloremque ipsum architecto, enim sapiente esse modi commodi alias! Qui magni unde exercitationem perferendis sequi, provident quis! Ducimus quae ex dignissimos inventore non?
+    Beatae, itaque distinctio quisquam quas atque vitae. Ab vitae tempora dignissimos, atque, dolore necessitatibus molestiae ipsum suscipit blanditiis sapiente, molestias omnis ratione ducimus perferendis a iste. Labore aperiam quos neque!
+    Sint dolorem est libero dolor fuga possimus laboriosam eligendi nisi, aperiam voluptates soluta nihil impedit quia deserunt dicta distinctio nemo ex perferendis asperiores facere cum laudantium labore blanditiis. Rem, molestias?
+    Quae perferendis laboriosam excepturi, totam molestias fugiat ipsum libero quia voluptas nemo beatae ab esse ipsa. Quaerat earum quia excepturi laudantium in unde! Iusto saepe eum quibusdam ducimus praesentium possimus.
+    Harum sed autem sequi, fugit iste accusantium nihil, recusandae, vel quos distinctio rem ab! Sapiente perferendis quaerat dolor corporis obcaecati ea laudantium earum maxime est, quibusdam illum iste numquam aperiam?</p> -->
+    <button onclick="topFunction()" id="scrollToTop">Click Me</button><br><br>
+  </div>
+  <!-- play audio -->
+  <button onclick="playSound()">Play Sound</button>
+  <audio id="audio" src="in-the-forest.mp3"></audio><br><br>
+  <!-- new tab -->
+  <button onclick="newTab()">New Window</button><br><br>
+  <!-- alert message when button clicked -->
+  <button id="btn" onclick="buttonFun()">Click Me</button><br><br>
+  <!-- change color when user hovers it -->
+  <button id="button" onmouseover="changeColor()">Read More</button><br><br>
+  <!-- play sound when button clicked -->
+  <button id="sound" onclick="playSound()">Play Music</button><br><br>
+  <!-- create event when the user move the mouse over an element -->
+  <!-- <div id="myElement" onmouseover="mouseOver()">Move the mouse over me</div> -->
+  <!-- create event that hides an element when the user move the mouse out of it -->
+  <div id="mouseElement" onmouseover="mouseOut()">Move the mouse over me</div>
+  <!-- open and close tab -->
+  <button onclick="openWin()">Open Window</button>
+  <button onclick="closeWin()">Close Window"</button><br><br>
+
+  <!-- checkbox -->
+  Checkbox: <input type="checkbox" id="myCheck" value="myvalue">
+  <button onclick="checkFun()">Try it</button>
+  <!-- id -->
+  <h3>Hello Programming</h3>
+  <!-- empty field -->
+  <form> 
+    <input id="test" type="text" />
+ </form>
+ <!-- Marital Status -->
+ <label for="maritalStatus">Are you married?</label>
+<input type="checkbox" id="maritalStatus">
+<button id="setStatusButton">Set Status</button>
+
+  <!-- bold text -->
+  <p id="text" onclick="textFun()">Lorem ipsum dolor amit</p>
+  <!-- disapper image and show text -->
+  <img id="image" src="image-3.jpg" style="width: 300px; height: 300px; object-fit: cover;" onmouseover="disappearFun()">
+  <p onmouseout="showText()" id="para-text">Flower Image </p>
+  <!-- heading -->
+  <h2 id="heading" onmouseover="changeBg()">Jawan Pakistan</h2>
+  <!-- underline -->
+  <p id="underline" onmouseover="paraFun()">This is a paragraph text</p>
+  <!-- swap images -->
+  <img src="images/image-1.jpg" id="myImage" width="200" height="150"><br><br>
+  <input type="button" onclick="changeImage()" value="Change Image" />
+
+  
+</body>
+</html>
